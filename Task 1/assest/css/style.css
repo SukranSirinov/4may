@@ -1,0 +1,236 @@
+.head-cl h1 {
+  margin: 0;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #0f394c;
+  text-transform: uppercase;
+}
+
+.head-cl h5 {
+  margin: 10px 0px 0px;
+  color: #1c698c;
+}
+
+.head-cl a {
+  width: 150px;
+  font-weight: 500;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 3px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin-top: 25px;
+  color: #fff;
+  background: #49b5e7;
+}
+
+.img-h {
+  max-width: 100%;
+  height: auto;
+}
+
+.icon-boxes {
+  padding: 15px;
+}
+
+.icon-boxes h3 {
+  margin: 0px 0px 15px;
+  color: #0f394c;
+}
+
+.icon-boxes p {
+  margin: 0px 0px 16px;
+  color: #444444;
+}
+
+.icon-box {
+  margin-top: 40px;
+}
+
+.icon-box .icon {
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 64px;
+  height: 64px;
+  border: 2px solid #d0ecf9;
+  border-radius: 50px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.icon-box a {
+  text-decoration: none;
+  margin-left: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.icon-box p {
+  margin-left: 85px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.counts .title {
+  position: relative;
+  color: #0f394c;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.counts span {
+  font-size: 44px;
+  font-weight: 700;
+  display: block;
+  color: #49b5e7;
+}
+
+.counts p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-size: 15px;
+  color: #444444;
+}
+
+#clients {
+  padding: 120px 0;
+}
+
+.client-logo {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+  background: #fff;
+  height: 120px;
+}
+
+.client-logo img {
+  width: 50%;
+  height: 50%;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.client-logo img:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+#services {
+  background-color: #f4fbfe;
+}
+
+#services .section-title {
+  text-align: center;
+}
+
+#services .section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #0f394c;
+}
+
+#services .section-title p {
+  color: #444444;
+}
+
+#services .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 10px 40px 10px;
+  background: #fff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#services .icon-box .title {
+  margin-left: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#services .icon-box .description {
+  font-size: 14px;
+  margin-left: 40px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#team .member {
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 5px;
+  background: #fff;
+  width: 100%;
+  position: relative;
+}
+
+#team .member .social {
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+#team .member .social a:not(:first-child) {
+  margin-left: 10px;
+}
+
+.img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.img .gallery-item {
+  width: 100%;
+  overflow: hidden;
+}
+
+.img .gallery-item img {
+  width: 100%;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.img .gallery-item:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=style.css.map */
